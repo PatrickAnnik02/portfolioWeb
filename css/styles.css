@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Para aplicar Media querys: @media (min-width/max-width: ---px) { 
+        etiqueta { estilos }
+    } 
+*/
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+a {
+  color: #509ee3;
+  text-decoration: none;
+}
+
+h1 {
+  color: #e9e9e9;
+}
+
+h3 {
+  color: #e9e9e9;
+}
+
+header {
+  display: flex;
+  margin: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  align-self: center;
+}
+
+p {
+  color: #efefef;
+}
+
+li {
+  list-style: none;
+}
+
+.section-title {
+  padding: 4px;
+  color: #e9e9e9;
+  border-width: 1px 0;
+  border-color: #f2e85e;
+  border-style: solid;
+  width: 224px;
+  text-align: center;
+}
+
+.text-primary-col {
+  color: #f2e85e;
+}
+
+.material-symbols-outlined {
+  font-size: 48px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 64px;
+}
+
+/* @media (min-width:500px) {
+
+  .container {
+    margin-right:32px;
+    margin-left:32px;
+  }
+ 
+} */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.card-portfolio {
+  display: flex;
+  align-items: flex-end;
+  width: 288px;
+  height: 288px;
+  background-image: url(/images/card-portfolio-example.jpg);
+  background-size: 150%;
+  border-radius: 16px;
+}
+
+.rectangle-bottom-card {
+  width: 288px;
+  height: 33%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rectangle-bottom-card h2 {
+  margin-top: 4px;
+}
+
+.rectangle-bottom-card h2,
+.rectangle-bottom-card ul {
+  margin-left: 8px;
+}
+
+.card-portfolio-tech {
+  display: inline;
+  border: solid 1px;
+  border-radius: 4px;
+}
+
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.card-text li {
+  font-size: 11px;
+  padding: 2px 16px;
+}
+
+.card-html {
+  color: #F1662A;
+  border-color: #F1662A;
+}
+
+.card-css {
+  color: #33A9DC;
+  border-color: #33A9DC;
+}
+
+.card-js {
+  color: #F0DB4F;
+  border-color: #F0DB4F;
+}
+
+.margin-16px {
+  margin: 16px;
+}
+
+.primary-btn {
+  border: #f2e85e solid 1px;
+  color: #f2e85e;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 8px 48px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  color: #0d0d0d;
+  font-weight: bold;
+  background-color: #f2e85e;
+  border-radius: 6px;
+  padding: 8px 48px;
+  cursor: pointer;
+}
+
+.logo {
+  color: #f2e85e;
+  font-size: 32px;
+}
+
+
+.main-image {
+  font-family: "Krona One", sans-serif;
+  font-size: 80px;
+  color: #666;
+  opacity: 0.25;
+}
+
+.my-img {
+  width: 148px;
+  height: 148px;
+  margin: 32px;
+}
+
+.about-text {
+  width: 80vw;
+}
+
+.menu {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin-top: 32px;
+}
+
+.skills p {
+  text-align: center;
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 64px;
+  background-color: #232323;
+}
+
+footer > span {
+  font-size: 11px;
+}
